@@ -3,7 +3,7 @@ package com.perscholas.ExecerciseOne.Rest;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.perscholas.ExecerciseOne")
 public class Application {
 
 	public static void main(String[] args) {
